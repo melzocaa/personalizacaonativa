@@ -17,6 +17,8 @@ O TaskMaster possui uma identidade visual baseada em tons suaves de rosa e lilá
 - Interface adaptada para dispositivos móveis.
   <img width="875" height="664" alt="Captura de tela 2026-11-13 135013" src="https://github.com/user-attachments/assets/04ebda31-2bbc-4652-8fd2-61b8aef7b869" />
   <img width="664" height="661" alt="Captura de tela 2026-11-13 135139" src="https://github.com/user-attachments/assets/36ca123f-ea06-4064-ba86-bede1336d60a" />
+  <img width="741" height="645" alt="WhatsApp Image 2026-11-13 at 13 48 35" src="https://github.com/user-attachments/assets/1350791f-20f8-4c1a-b9f7-7744e10e3309" />
+
 
 ## 🚀 Tecnologias utilizadas
 
