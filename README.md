@@ -15,6 +15,8 @@ O TaskMaster possui uma identidade visual baseada em tons suaves de rosa e lilá
 - Ícone personalizado para o aplicativo.
 - Splash Screen com a identidade visual da marca.
 - Interface adaptada para dispositivos móveis.
+  <img width="875" height="664" alt="Captura de tela 2026-11-13 135013" src="https://github.com/user-attachments/assets/04ebda31-2bbc-4652-8fd2-61b8aef7b869" />
+  <img width="664" height="661" alt="Captura de tela 2026-11-13 135139" src="https://github.com/user-attachments/assets/36ca123f-ea06-4064-ba86-bede1336d60a" />
 
 ## 🚀 Tecnologias utilizadas
 
