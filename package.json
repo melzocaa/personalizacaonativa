@@ -21,7 +21,8 @@
     "@capacitor/cli": "^8.6.2",
     "@capacitor/core": "^8.6.2",
     "@tailwindcss/vite": "^4.1.0",
-    "tailwindcss": "^4.1.0"
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.8.3"
   },
   "description": "Aplicativo de organização de tarefas com identidade visual em lavanda, rosa blush e tons claros.",
   "main": "vite.config.js",
