@@ -1,19 +1,16 @@
-import { CapacitorConfig } from '@capacitor/cli';
+import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.senai.meuapp',
-  appName: 'MeuAppProfissional',
+  appId: 'com.taskmaster.app',
+  appName: 'TaskMaster',
   webDir: 'dist',
   plugins: {
     SplashScreen: {
       launchShowDuration: 2000,
-      launchAutoHide: true,
-      backgroundColor: "#0f0f11",
-      androidSplashResourceName: "splash",
-      androidScaleType: "CENTER_CROP",
-      showSpinner: false,
-    },
-  },
+      backgroundColor: '#FCE7F3',
+      showSpinner: false
+    }
+  }
 };
 
 export default config;
