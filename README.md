@@ -1,31 +1,95 @@
-# Taskflow — React + Tailwind CSS
+# TaskMaster ✨
 
-Aplicativo de organização de tarefas com identidade visual em lavanda, rosa blush e tons claros.
+**Organize. Planeje. Conquiste.**
 
-## Executar
+O TaskMaster é um aplicativo mobile de gerenciamento de tarefas, desenvolvido para ajudar na organização da rotina, no acompanhamento de atividades e no planejamento do dia a dia.
+
+Com uma interface moderna e delicada, o aplicativo busca tornar a produtividade mais simples e agradável.
+
+---
+
+## 🌸 Identidade Visual
+
+O TaskMaster possui uma identidade visual baseada em tons suaves de rosa e lilás, transmitindo leveza, organização e simplicidade.
+
+- Ícone personalizado para o aplicativo.
+- Splash Screen com a identidade visual da marca.
+- Interface adaptada para dispositivos móveis.
+
+## 🚀 Tecnologias utilizadas
+
+- React
+- Vite
+- Tailwind CSS
+- Capacitor
+- JavaScript
+- Android
+- GitHub Actions
+
+## 📱 Recursos
+
+- Interface mobile.
+- Organização e gerenciamento de tarefas.
+- Identidade visual personalizada.
+- Ícone e tela de abertura nativos para Android.
+- Geração automatizada do APK utilizando GitHub Actions.
+
+## ⚙️ Como executar o projeto
+
+Clone o repositório:
+
+```bash
+git clone URL_DO_REPOSITORIO
+```
+
+Entre na pasta:
+
+```bash
+cd taskmaster-tailwind
+```
+
+Instale as dependências:
 
 ```bash
 npm install
+```
+
+Execute o projeto:
+
+```bash
 npm run dev
 ```
 
-## Gerar build
+## 📦 Gerar o aplicativo Android
+
+Compile o projeto:
 
 ```bash
 npm run build
 ```
 
-## Capacitor (Android)
-
-O projeto já inclui `@capacitor/core`. Para adicionar Android depois de instalar as dependências:
+Sincronize com o Android:
 
 ```bash
-npm install @capacitor/cli @capacitor/android
-npx cap init Taskflow com.taskflow.app --web-dir=dist
-npm run build
-npx cap add android
 npx cap sync android
-npx cap open android
 ```
 
-A interface usa Tailwind CSS v4 pelo plugin oficial do Vite. As tarefas são salvas no `localStorage` do dispositivo/navegador, então continuam disponíveis ao reabrir o app no mesmo dispositivo.
+Gere os recursos nativos:
+
+```bash
+npx capacitor-assets generate --android
+```
+
+## 🤖 Build automatizado
+
+O projeto utiliza GitHub Actions para automatizar a compilação do aplicativo Android.
+
+Após enviar as alterações ao GitHub, o workflow executa o processo de build e disponibiliza o APK como artefato para download.
+
+## 🎯 Objetivo do projeto
+
+O objetivo do TaskMaster é desenvolver uma aplicação mobile que una organização, praticidade e uma experiência visual agradável, aplicando conhecimentos de desenvolvimento React, integração com Capacitor e personalização nativa Android.
+
+---
+
+**TaskMaster — Sua rotina, mais organizada.** 💗
